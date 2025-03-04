@@ -76,8 +76,14 @@ Este documento describe la arquitectura del sistema ALPY, un bloque personalizad
 **\<optionally: Explanation of external domain interfaces>**
 
 ## Contexto Técnico {#_contexto_t_cnico}
+- **Moodle como base de desarrollo.**
 
-**Uso de bases de datos para almacenar estilos de aprendizaje.**
+- **Uso de bases de datos para almacenar estilos de aprendizaje.**
+
+- **Implementación de lógica de negocio a través de plugins personalizados en Moodle.**
+
+- **Integración con sistemas de autenticación y roles de Moodle.**
+
 
 **\<Diagrama o Tabla>**
 
