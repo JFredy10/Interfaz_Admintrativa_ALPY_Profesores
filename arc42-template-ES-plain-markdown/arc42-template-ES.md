@@ -14,20 +14,56 @@ arquitectura arc42, <https://www.arc42.org>. Creada por Dr. Peter
 Hruschka y Dr. Gernot Starke.
 
 # Introducción y Metas {#section-introduction-and-goals}
-
+Este documento describe la arquitectura del sistema ALPY, un bloque personalizado para Moodle que permite mostrar los estilos de aprendizaje de los estudiantes a los profesores y personalizar la presentación del contenido del curso en función de dichos estilos como el visual, auditivo y kinestesico.
 ## Vista de Requerimientos {#_vista_de_requerimientos}
+
+
+**Requerimientos Funcionales**
+
+- Desarrollar un bloque Moodle para profesores que visualice los estilos de aprendizaje de los estudiantes matriculados en el curso.
+
+- Implementar un mecanismo que organice y personalice la presentación del contenido del curso según el estilo de aprendizaje del estudiante.
+
+- Asegurar que los datos de los estilos de aprendizaje sean accesibles únicamente por los profesores del curso.
+
+- Permitir que los administradores de Moodle gestionen y configuren la funcionalidad del bloque.
+
+
+**Requerimientos No Funcionales**
+
+- Compatibilidad con Moodle sin requerir modificaciones en su estructura base.
+
+- Interfaz intuitiva para profesores y estudiantes.
+
+- Seguridad y privacidad en el acceso a los datos de los estilos de aprendizaje.
+
+- Eficiencia en la carga del contenido, evitar retrasos en la navegación del curso.
+
+- Escalabilidad, garantizar el correcto funcionamiento de los cursos con gran cantidad de estudiantes.
+
+- Soporte para futuros cambios y expansiones, de facil mantenimiento.
+
+
 
 ## Metas de Calidad {#_metas_de_calidad}
 
+1. Facilitar la visualización de datos a los profesores mediante un bloque en Moodle que muestre los estilos de aprendizaje de los estudiantes.
+2. Optimizar la organización del curso, adaptando la presentación de los contenidos según el perfil de aprendizaje de cada estudiante.
+3. Asegurar la integración con Moodle, sin afectar su rendimiento.
+4. Mejorar la experiencia de aprendizaje personalizada, permitiendo a los alumnos acceder a materiales adecuados a su estilo de aprendizaje.
+   
 ## Partes interesadas (Stakeholders) {#_partes_interesadas_stakeholders}
 
 +-------------+---------------------------+---------------------------+
 | Rol/Nombre  | Contacto                  | Expectativas              |
 +=============+===========================+===========================+
-| *\<Role-1>* | *\<Contact-1>*            | *\<Expectation-1>*        |
+| *\<Administrador Moodle>* | *\<IT Savio>*            | *\<Configuración y mantenimiento del sistema>*        |
 +-------------+---------------------------+---------------------------+
-| *\<Role-2>* | *\<Contact-2>*            | *\<Expectation-2>*        |
+| *\<Profesor>* | *\<Docentes>*            | *\<Acceso a estilos de aprendizaje de estudiantes>*        |
 +-------------+---------------------------+---------------------------+
+| *\<Estudiante>* | *\<Usuarios Moodle>*            | *\<Personalización de contenido según su estilo>*        |
++-------------+---------------------------+---------------------------+
+
 
 # Restricciones de la Arquitectura {#section-architecture-constraints}
 
@@ -40,6 +76,8 @@ Hruschka y Dr. Gernot Starke.
 **\<optionally: Explanation of external domain interfaces>**
 
 ## Contexto Técnico {#_contexto_t_cnico}
+
+**Uso de bases de datos para almacenar estilos de aprendizaje.**
 
 **\<Diagrama o Tabla>**
 
@@ -129,6 +167,11 @@ Interfases importantes
 # Vista de Ejecución {#section-runtime-view}
 
 ## \<Escenario de ejecución 1> {#__escenario_de_ejecuci_n_1}
+
+1. **El estudiante accede por primera vez** y completa la encuesta.
+2. **Los resultados se almacenan** en la base de datos.
+3. **El profesor visualiza** los estilos de aprendizaje de sus alumnos.
+4. **Moodle adapta el contenido** según el estilo del estudiante.
 
 -   *\<Inserte un diagrama de ejecución o la descripción del escenario>*
 
