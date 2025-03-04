@@ -72,6 +72,11 @@ Este documento describe la arquitectura del sistema ALPY, un bloque personalizad
 ## Contexto de Negocio {#_contexto_de_negocio}
 
 **\<Diagrama o Tabla>**
+|            |          |              |
+|------------|----------|--------------|
+|            |          |              |
+|            |          |              |
+|            |          |              |
 
 **\<optionally: Explanation of external domain interfaces>**
 
