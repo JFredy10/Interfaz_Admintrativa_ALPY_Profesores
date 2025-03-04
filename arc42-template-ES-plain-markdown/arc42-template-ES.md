@@ -57,11 +57,11 @@ Este documento describe la arquitectura del sistema ALPY, un bloque personalizad
 +-------------+---------------------------+---------------------------+
 | Rol/Nombre  | Contacto                  | Expectativas              |
 +=============+===========================+===========================+
-| *\<Administrador Moodle>* | *\<IT Savio>*            | *\<Configuración y mantenimiento del sistema>*        |
+| *\<Administrador Moodle>* | *\<IT Savio>* | *\<Configuración y mantenimiento del sistema>*|
 +-------------+---------------------------+---------------------------+
-| *\<Profesor>* | *\<Docentes>*            | *\<Acceso a estilos de aprendizaje de estudiantes>*        |
+| *\<Profesor>* | *\<Docentes>*            | *\<Acceso a estilos de aprendizaje de estudiantes>*|
 +-------------+---------------------------+---------------------------+
-| *\<Estudiante>* | *\<Usuarios Moodle>*            | *\<Personalización de contenido según su estilo>*        |
+| *\<Estudiante>* | *\<Usuarios Moodle>* | *\<Personalización de contenido según su estilo>*|
 +-------------+---------------------------+---------------------------+
 
 
@@ -168,10 +168,11 @@ Interfases importantes
 
 ## \<Escenario de ejecución 1> {#__escenario_de_ejecuci_n_1}
 
-1. **El estudiante accede por primera vez** y completa la encuesta.
-2. **Los resultados se almacenan** en la base de datos.
-3. **El profesor visualiza** los estilos de aprendizaje de sus alumnos.
-4. **Moodle adapta el contenido** según el estilo del estudiante.
+1. **El profesor accede al curso en Moodle** y visualiza el bloque con los estilos de aprendizaje de los estudiantes matriculados.
+
+2. **El estudiante accede al curso y Moodle** reorganiza la presentación de los contenidos según su estilo de aprendizaje.
+
+3. **El sistema garantiza** que cada estudiante vea los materiales adecuados para su estilo de aprendizaje.
 
 -   *\<Inserte un diagrama de ejecución o la descripción del escenario>*
 
@@ -253,3 +254,8 @@ Características de Calidad/Rendimiento
 +-----------------------+-----------------------------------------------+
 | *\<Término-2>*        | *\<definicion-2>*                             |
 +-----------------------+-----------------------------------------------+
+
+
+Moodle Docs - Personalización de contenido en Moodle: https://docs.moodle.org/
+Moodle Plugins - Desarrollo de bloques en Moodle: https://moodle.org/plugins/
+Seguridad en Moodle - Protección de datos: https://docs.moodle.org/dev/Security
