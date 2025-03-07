@@ -14,43 +14,33 @@ arquitectura arc42, <https://www.arc42.org>. Creada por Dr. Peter
 Hruschka y Dr. Gernot Starke.
 
 # Introducción y Metas {#section-introduction-and-goals}
-Este documento describe la arquitectura del sistema ALPY, un bloque personalizado para Moodle que permite mostrar los estilos de aprendizaje de los estudiantes a los profesores y personalizar la presentación del contenido del curso en función de dichos estilos como el visual, auditivo y kinestesico.
+Este documento describe la arquitectura del sistema ALPY, un bloque personalizado para Moodle que permite mostrar los estilos de aprendizaje y personalidad de los estudiantes a los profesores y personalizar la presentación del contenido del curso en función de dichos estilos como el visual, auditivo y kinestesico.
+
+Desarrollar una interfaz gráfica para que los profesores puedan visualizar los resultados de los test de estilo de aprendizaje y personalidad de los estudiantes en la plataforma Savio.
 ## Vista de Requerimientos {#_vista_de_requerimientos}
 
 
 **Requerimientos Funcionales**
 
-- Desarrollar un bloque Moodle para profesores que visualice los estilos de aprendizaje de los estudiantes matriculados en el curso.
 
-- Implementar un mecanismo que organice y personalice la presentación del contenido del curso según el estilo de aprendizaje del estudiante.
-
-- Asegurar que los datos de los estilos de aprendizaje sean accesibles únicamente por los profesores del curso.
-
-- Permitir que los administradores de Moodle gestionen y configuren la funcionalidad del bloque.
+1. Presentar gráficos estadísticos de los estilos de aprendizaje (visual, sensitivo, secuencial, global).
+2. Mostrar comparativas de los resultados entre estudiantes.
+3. Opción de generar reportes en formatos CSV y PDF.
+4. Asegurar que los datos de los estilos de aprendizaje sean accesibles únicamente por el profesores del curso.
+6. Integración con Moodle e importación del módulo en Savio
 
 
 **Requerimientos No Funcionales**
 
-- Compatibilidad con Moodle sin requerir modificaciones en su estructura base.
-
-- Interfaz intuitiva para profesores y estudiantes.
-
-- Seguridad y privacidad en el acceso a los datos de los estilos de aprendizaje.
-
-- Eficiencia en la carga del contenido, evitar retrasos en la navegación del curso.
-
-- Escalabilidad, garantizar el correcto funcionamiento de los cursos con gran cantidad de estudiantes.
-
-- Soporte para futuros cambios y expansiones, de facil mantenimiento.
-
-
+1. *Usabilidad:* Interfaz intuitiva y de fácil uso para los profesores.
+2. *Interoperabilidad:* Compatible con Moodle 3.9 y Savio 4.1.
+3. *Experiencia de Usuario:* Diseño visual acorde a la paleta de colores de Savio.
 
 ## Metas de Calidad {#_metas_de_calidad}
 
-1. Facilitar la visualización de datos a los profesores mediante un bloque en Moodle que muestre los estilos de aprendizaje de los estudiantes.
-2. Optimizar la organización del curso, adaptando la presentación de los contenidos según el perfil de aprendizaje de cada estudiante.
-3. Asegurar la integración con Moodle, sin afectar su rendimiento.
-4. Mejorar la experiencia de aprendizaje personalizada, permitiendo a los alumnos acceder a materiales adecuados a su estilo de aprendizaje.
+- *Accesibilidad:* Debe poder ser usado por todos los profesores sin barreras técnicas.
+- *Eficiencia:* El procesamiento de datos y la generación de reportes debe ser rápido.
+- *Escalabilidad:* Capacidad de adaptarse a un número creciente de usuarios sin afectar el rendimiento.
    
 ## Partes interesadas (Stakeholders) {#_partes_interesadas_stakeholders}
 
@@ -65,11 +55,22 @@ Este documento describe la arquitectura del sistema ALPY, un bloque personalizad
 +-------------+---------------------------+---------------------------+
 
 
+| Rol | Nombre | Expectativas |
+|------|--------|-------------|
+| Profesor | [Nombre del Profesor] | Visualizar datos de estudiantes de manera clara y rápida |
+| Administrador Moodle | [Nombre del Administrador] | Gestionar la integración con Moodle y Savio |
+| Equipo de Desarrollo | [Nombre del Equipo] | Implementar la solución cumpliendo con los requisitos |
+
 # Restricciones de la Arquitectura {#section-architecture-constraints}
+
+- El bloque debe ser compatible con Moodle 3.9 y Savio 4.1.
+- La interfaz debe ajustarse a la paleta de colores y lineamientos de diseño de Savio.
+- La generación de reportes debe cumplir con estándares CSV y PDF.
 
 # Alcance y Contexto del Sistema {#section-context-and-scope}
 
 ## Contexto de Negocio {#_contexto_de_negocio}
+El sistema permitirá a los profesores visualizar los datos de los estudiantes en función de sus estilos de aprendizaje y personalidad, optimizando las estrategias de enseñanza.
 
 **\<Diagrama o Tabla>**
 |            |          |              |
@@ -81,13 +82,9 @@ Este documento describe la arquitectura del sistema ALPY, un bloque personalizad
 **\<optionally: Explanation of external domain interfaces>**
 
 ## Contexto Técnico {#_contexto_t_cnico}
-- **Moodle como base de desarrollo.**
 
-- **Uso de bases de datos para almacenar estilos de aprendizaje.**
-
-- **Implementación de lógica de negocio a través de plugins personalizados en Moodle.**
-
-- **Integración con sistemas de autenticación y roles de Moodle.**
+- *Plataforma:* Moodle 3.9 y Savio 4.1
+- *Lenguaje de desarrollo:* PHP, HTML, CSS
 
 
 **\<Diagrama o Tabla>**
@@ -98,7 +95,15 @@ Este documento describe la arquitectura del sistema ALPY, un bloque personalizad
 
 # Estrategia de solución {#section-solution-strategy}
 
+1. El profesor accede al bloque.
+2. visualiza las grafica de estudiantes.
+3. Visualiza los datos de aprendizaje y personalidad.
+4. descarga reportes si es necesario.
+   
 # Vista de Bloques {#section-building-block-view}
+
+
+El sistema se desplegará en los servidores de Moodle/Savio, garantizando accesibilidad y seguridad.
 
 ## Sistema General de Caja Blanca {#_sistema_general_de_caja_blanca}
 
@@ -179,11 +184,8 @@ Interfases importantes
 
 ## \<Escenario de ejecución 1> {#__escenario_de_ejecuci_n_1}
 
-1. **El profesor accede al curso en Moodle** y visualiza el bloque con los estilos de aprendizaje de los estudiantes matriculados.
 
-2. **El estudiante accede al curso y Moodle** reorganiza la presentación de los contenidos según su estilo de aprendizaje.
 
-3. **El sistema garantiza** que cada estudiante vea los materiales adecuados para su estilo de aprendizaje.
 
 -   *\<Inserte un diagrama de ejecución o la descripción del escenario>*
 
@@ -197,7 +199,7 @@ Interfases importantes
 ## \<Escenario de ejecución n> {#__escenario_de_ejecuci_n_n}
 
 # Vista de Despliegue {#section-deployment-view}
-
+El sistema se desplegará en los servidores de Moodle/Savio, garantizando accesibilidad y seguridad.
 ## Nivel de infraestructura 1 {#_nivel_de_infraestructura_1}
 
 ***\<Diagrama General>***
@@ -231,7 +233,9 @@ Características de Calidad/Rendimiento
 *\<diagrama + explicación>*
 
 # Conceptos Transversales (Cross-cutting) {#section-concepts}
-
+- *Seguridad:* Manejo seguro de la información de los estudiantes.
+- *Interfaz amigable:* Diseñada con principios UX/UI.
+- *Escalabilidad:* Pensada para crecer en número de usuarios.
 ## *\<Concepto 1>* {#__emphasis_concepto_1_emphasis}
 
 *\<explicación>*
@@ -247,7 +251,9 @@ Características de Calidad/Rendimiento
 *\<explicación>*
 
 # Decisiones de Diseño {#section-design-decisions}
-
+- Uso de gráficos interactivos para la visualización de datos.
+- Exportación de reportes en CSV y PDF.
+- Integración con la base de datos de Savio.
 # Requerimientos de Calidad {#section-quality-scenarios}
 
 ## Árbol de Calidad {#__rbol_de_calidad}
@@ -255,17 +261,16 @@ Características de Calidad/Rendimiento
 ## Escenarios de calidad {#_escenarios_de_calidad}
 
 # Riesgos y deuda técnica {#section-technical-risks}
-
+- *Riesgos:* Posible incompatibilidad con versiones futuras de Moodle.
+- *Mitigación:* Mantenimiento continuo y pruebas de compatibilidad.
 # Glosario {#section-glossary}
 
-+-----------------------+-----------------------------------------------+
-| Término               | Definición                                    |
-+=======================+===============================================+
-| *\<Término-1>*        | *\<definicion-1>*                             |
-+-----------------------+-----------------------------------------------+
-| *\<Término-2>*        | *\<definicion-2>*                             |
-+-----------------------+-----------------------------------------------+
 
+| Término | Definición |
+|---------|------------|
+| Moodle | Plataforma de gestión del aprendizaje |
+| Savio | Sistema de gestión educativa |
+| ALPY | Herramienta de análisis de estilos de aprendizaje y personalidad |
 
 Moodle Docs - Personalización de contenido en Moodle: https://docs.moodle.org/
 Moodle Plugins - Desarrollo de bloques en Moodle: https://moodle.org/plugins/
