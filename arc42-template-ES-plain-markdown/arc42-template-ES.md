@@ -25,7 +25,7 @@ El objetivo de este documento es definir la arquitectura del bloque Moodle para 
 1. Presentar gráficos estadísticos de los estilos de aprendizaje (visual, sensitivo, secuencial, global).
 2. Mostrar comparativas de los resultados entre estudiantes.
 3. Opción de generar reportes en formatos CSV y PDF.
-4. Asegurar que los datos de los estilos de aprendizaje sean accesibles únicamente por el profesores del curso.
+4. Asegurar que los datos de los estilos de aprendizaje sean accesibles únicamente por los profesores del curso.
 6. Integración con Moodle e importación del módulo en Savio
 
 
