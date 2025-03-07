@@ -14,9 +14,8 @@ arquitectura arc42, <https://www.arc42.org>. Creada por Dr. Peter
 Hruschka y Dr. Gernot Starke.
 
 # Introducción y Metas {#section-introduction-and-goals}
-Este documento describe la arquitectura del sistema ALPY, un bloque personalizado para Moodle que permite mostrar los estilos de aprendizaje y personalidad de los estudiantes a los profesores y personalizar la presentación del contenido del curso en función de dichos estilos como el visual, auditivo y kinestesico.
-
-Desarrollar una interfaz gráfica para que los profesores puedan visualizar los resultados de los test de estilo de aprendizaje y personalidad de los estudiantes en la plataforma Savio.
+El objetivo de este documento es definir la arquitectura del bloque Moodle para la visualización de los estilos de aprendizaje y personalidad de los estudiantes. Este interfaz facilitará a los profesores la interpretación de los datos del test de estilo de aprendizaje y personalidad de los estudiantes en la plataforma Savio.
+ 
 ## Vista de Requerimientos {#_vista_de_requerimientos}
 
 
@@ -43,16 +42,6 @@ Desarrollar una interfaz gráfica para que los profesores puedan visualizar los 
 - *Escalabilidad:* Capacidad de adaptarse a un número creciente de usuarios sin afectar el rendimiento.
    
 ## Partes interesadas (Stakeholders) {#_partes_interesadas_stakeholders}
-
-+-------------+---------------------------+---------------------------+
-| Rol/Nombre  | Contacto                  | Expectativas              |
-+=============+===========================+===========================+
-| *\<Administrador Moodle>* | *\<IT Savio>* | *\<Configuración y mantenimiento del sistema>*|
-+-------------+---------------------------+---------------------------+
-| *\<Profesor>* | *\<Docentes>*            | *\<Acceso a estilos de aprendizaje de estudiantes>*|
-+-------------+---------------------------+---------------------------+
-| *\<Estudiante>* | *\<Usuarios Moodle>* | *\<Personalización de contenido según su estilo>*|
-+-------------+---------------------------+---------------------------+
 
 
 | Rol | Nombre | Expectativas |
