@@ -19,15 +19,24 @@
 
 #### Instalacion
 
+*Entorno de Desarrollo Local*
+![Entorno de Desarrollo](https://github.com/user-attachments/assets/9cfbc23e-e8f2-4d86-87b6-7a9fda1371e5)
+
+*DOCKER*
+![Docker](https://github.com/user-attachments/assets/5e2d657f-6bb6-42a9-b085-51292f01e058)
+
+*Instalacion de Moodle*
+![instalacion](https://github.com/user-attachments/assets/99a9eb12-b697-4a06-b945-9a2f1ad52091)
+
+
+![version de moodle](https://github.com/user-attachments/assets/0cc5c0ef-913a-48f6-b0fa-cc2be77e95b4)
 
 
 
+#### Interfaz Moodle
+![Interfaz Moodle](https://github.com/user-attachments/assets/80b23780-8bd1-4374-83a3-735f0ad7e5f5)
 
 
-
-#### Interfaz ALPY
-
-![Captura de pantalla 2025-03-08 002646](https://github.com/user-attachments/assets/17dbaee6-ddc7-4dbf-afa3-9270f86b7fe5)
 
 
 
