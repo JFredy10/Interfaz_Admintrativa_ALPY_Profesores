@@ -26,7 +26,8 @@
 
 
 #### Interfaz ALPY
-![Interfaz ALPY](https://github.com/user-attachments/assets/64b7ccec-04b4-4abd-9797-726cb0c3d6f6)
+
+![Captura de pantalla 2025-03-08 002646](https://github.com/user-attachments/assets/17dbaee6-ddc7-4dbf-afa3-9270f86b7fe5)
 
 
 
