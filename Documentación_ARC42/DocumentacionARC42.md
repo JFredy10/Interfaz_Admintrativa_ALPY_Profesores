@@ -17,7 +17,7 @@ Hruschka y Dr. Gernot Starke.
 -*Fredy Jarava Chavez T00064995*
 -*Rafael Villero Castillo*
 -*Juan Ramos Olmos*
--*Jose Salas Pajaro*
+-*Luis Salas Pajaro*
 
 
 # Introducción y Metas {#section-introduction-and-goals}
