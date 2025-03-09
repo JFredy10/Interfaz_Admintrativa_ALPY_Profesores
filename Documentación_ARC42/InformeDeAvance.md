@@ -12,6 +12,7 @@
 ## Evidencias de Configuración del Entorno
 
 ### Integrante 1
+![Imagen de WhatsApp 2025-03-08 a las 23 49 42_f16e5c8b](https://github.com/user-attachments/assets/963def93-a13d-444f-be65-f0f5ffb05b4d)
 
 
 ### Integrante 2
