@@ -53,9 +53,12 @@ El objetivo de este documento es definir la arquitectura del bloque Moodle para 
 
 | Rol | Nombre | Expectativas |
 |------|--------|-------------|
-| Profesor | [Nombre del Profesor] | Visualizar datos de estudiantes de manera clara y rápida |
-| Administrador Moodle | [Nombre del Administrador] | Gestionar la integración con Moodle y Savio |
-| Equipo de Desarrollo | [Nombre del Equipo] | Implementar la solución cumpliendo con los requisitos |
+| Profesor | [Jairo Serrano ] | Visualizar datos de estudiantes de manera clara y rápida |
+| Administrador Moodle | Yuranis Henriquez  |  |
+| Equipo de Desarrollo | Nombre del Equipo | Implementar la solución cumpliendo con los requisitos |
+| Equipo de Desarrollo | Nombre del Equipo | Implementar la solución cumpliendo con los requisitos |
+| Equipo de Desarrollo | Nombre del Equipo | Implementar la solución cumpliendo con lo
+| Equipo de Desarrollo | Nombre del Equipo | Implementar la solución cumpliendo con los requisitos |s requisitos |
 
 # Restricciones de la Arquitectura {#section-architecture-constraints}
 
@@ -69,12 +72,6 @@ El objetivo de este documento es definir la arquitectura del bloque Moodle para 
 El sistema permitirá a los profesores visualizar los datos de los estudiantes en función de sus estilos de aprendizaje y personalidad, optimizando las estrategias de enseñanza.
 
 **\<Diagrama o Tabla>**
-|            |          |              |
-|------------|----------|--------------|
-|            |          |              |
-|            |          |              |
-|            |          |              |
-
 **\<optionally: Explanation of external domain interfaces>**
 
 ## Contexto Técnico {#_contexto_t_cnico}
