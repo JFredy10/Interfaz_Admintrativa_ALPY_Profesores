@@ -38,23 +38,15 @@
 
 
 
-
-
-
-
-*Desarrollo del Block en Visual Studio*
-
-![Estructura de Block](https://github.com/user-attachments/assets/2573f1c9-ed6a-47f4-9462-84dea333d459)
-
-
-
-
 ---
 
 ## Evidencia de Creación del Repositorio, Proyecto y Tareas en GitHub
 
 ![Repositorio](https://github.com/user-attachments/assets/264dfd7a-e1c8-4813-bb4a-226b3de9a0d3)
 
+*Desarrollo del Block en Visual Studio*
+
+![Estructura de Block](https://github.com/user-attachments/assets/2573f1c9-ed6a-47f4-9462-84dea333d459)
 
 ### Repositorio
 - *Nombre del repositorio*: Interfaz_Admintrativa_ALPY_Profesores
