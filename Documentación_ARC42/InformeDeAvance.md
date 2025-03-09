@@ -36,6 +36,16 @@
 #### Interfaz Moodle
 ![Interfaz Moodle](https://github.com/user-attachments/assets/80b23780-8bd1-4374-83a3-735f0ad7e5f5)
 
+### Integrante 3
+
+*Entorno de Desarrollo Local*
+
+![entorno de desarrollo](https://github.com/user-attachments/assets/17aa88bc-8438-406c-bb70-7d3378a69d34)
+
+![visual](https://github.com/user-attachments/assets/e1bd07ff-1e71-4b21-aa34-88bc91d3b959)
+
+
+
 
 
 ---
