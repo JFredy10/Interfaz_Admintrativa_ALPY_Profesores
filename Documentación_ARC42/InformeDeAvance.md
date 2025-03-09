@@ -42,7 +42,9 @@
 
 
 
+*Desarrollo del Block en Visual Studio*
 
+![Estructura de Block](https://github.com/user-attachments/assets/2573f1c9-ed6a-47f4-9462-84dea333d459)
 
 
 
