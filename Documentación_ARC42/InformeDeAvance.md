@@ -17,6 +17,25 @@
 
 ### Integrante 2
 
+#### Instalacion
+
+
+
+
+
+
+
+#### Interfaz ALPY
+![Interfaz ALPY](https://github.com/user-attachments/assets/64b7ccec-04b4-4abd-9797-726cb0c3d6f6)
+
+
+
+
+
+
+
+
+
 
 ---
 
