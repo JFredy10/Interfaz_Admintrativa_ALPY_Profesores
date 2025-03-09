@@ -20,10 +20,10 @@ Hruschka y Dr. Gernot Starke.
 -*Luis Salas Pajaro*
 
 
-# Introducción y Metas {#section-introduction-and-goals}
+# Introducción y Metas 
 El objetivo de este documento es definir la arquitectura del bloque Moodle para la visualización de los estilos de aprendizaje y personalidad de los estudiantes. Este interfaz facilitará a los profesores la interpretación de los datos del test de estilo de aprendizaje y personalidad de los estudiantes en la plataforma Savio.
  
-## Vista de Requerimientos {#_vista_de_requerimientos}
+## Vista de Requerimientos 
 
 
 **Requerimientos Funcionales**
@@ -42,13 +42,13 @@ El objetivo de este documento es definir la arquitectura del bloque Moodle para 
 2. *Interoperabilidad:* Compatible con Moodle 3.9 y Savio 4.1.
 3. *Experiencia de Usuario:* Diseño visual acorde a la paleta de colores de Savio.
 
-## Metas de Calidad {#_metas_de_calidad}
+## Metas de Calidad 
 
 - *Accesibilidad:* Debe poder ser usado por todos los profesores sin barreras técnicas.
 - *Eficiencia:* El procesamiento de datos y la generación de reportes debe ser rápido.
 - *Escalabilidad:* Capacidad de adaptarse a un número creciente de usuarios sin afectar el rendimiento.
    
-## Partes interesadas (Stakeholders) {#_partes_interesadas_stakeholders}
+## Partes interesadas (Stakeholders) 
 
 
 | Rol | Nombre | Expectativas |
@@ -60,13 +60,13 @@ El objetivo de este documento es definir la arquitectura del bloque Moodle para 
 | Equipo de Desarrollo | Juan Ramos Olmos | Implementar con la integracion del bloque |
 | Equipo de Desarrollo | Luis Salas Pajaro | cumplir con el rendimiento del sistema |
 
-# Restricciones de la Arquitectura {#section-architecture-constraints}
+# Restricciones de la Arquitectura 
 
 - El bloque debe ser compatible con Moodle 3.9 y Savio 4.1.
 - La interfaz debe ajustarse a la paleta de colores y lineamientos de diseño de Savio.
 - La generación de reportes debe cumplir con estándares CSV y PDF.
 
-# Alcance y Contexto del Sistema {#section-context-and-scope}
+# Alcance y Contexto del Sistema 
 
 ## Contexto de Negocio {#_contexto_de_negocio}
 El sistema permitirá a los profesores visualizar los datos de los estudiantes en función de sus estilos de aprendizaje y personalidad, optimizando las estrategias de enseñanza.
@@ -86,7 +86,7 @@ El sistema permitirá a los profesores visualizar los datos de los estudiantes e
 
 **\<Mapeo de Entrada/Salida a canales>**
 
-# Estrategia de solución {#section-solution-strategy}
+# Estrategia de solución 
 
 1. El profesor accede al bloque.
 2. visualiza las grafica de estudiantes.
@@ -225,7 +225,7 @@ Características de Calidad/Rendimiento
 
 *\<diagrama + explicación>*
 
-# Conceptos Transversales (Cross-cutting) {#section-concepts}
+# Conceptos Transversales (Cross-cutting) 
 - *Seguridad:* Manejo seguro de la información de los estudiantes.
 - *Interfaz amigable:* Diseñada con principios UX/UI.
 - *Escalabilidad:* Pensada para crecer en número de usuarios.
