@@ -13,6 +13,13 @@ Revisión de la plantilla: 7.0 ES (basada en asciidoc), Enero 2017
 arquitectura arc42, <https://www.arc42.org>. Creada por Dr. Peter
 Hruschka y Dr. Gernot Starke.
 
+###Integrantes:
+*Fredy Jarava Chavez T00064995*
+*Rafael Villero Castillo*
+*Juan Ramos Olmos*
+*Jose Salas Pajaro*
+
+
 # Introducción y Metas {#section-introduction-and-goals}
 El objetivo de este documento es definir la arquitectura del bloque Moodle para la visualización de los estilos de aprendizaje y personalidad de los estudiantes. Este interfaz facilitará a los profesores la interpretación de los datos del test de estilo de aprendizaje y personalidad de los estudiantes en la plataforma Savio.
  
