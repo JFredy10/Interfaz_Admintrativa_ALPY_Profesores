@@ -65,3 +65,14 @@
 - *Nombre del repositorio*: Interfaz_Admintrativa_ALPY_Profesores
 - *URL*: https://github.com/JFredy10/Interfaz_Admintrativa_ALPY_Profesores.git
 
+
+### Integrante 4
+
+*Entorno local*
+![Visual](image.png)
+
+*GitHub*
+![GitHub](image-1.png)
+
+*GitHub repositorio*
+![Repositorio](image-2.png)
