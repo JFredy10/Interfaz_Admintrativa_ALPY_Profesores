@@ -14,10 +14,10 @@ arquitectura arc42, <https://www.arc42.org>. Creada por Dr. Peter
 Hruschka y Dr. Gernot Starke.
 
 ###Integrantes:
-*Fredy Jarava Chavez T00064995*
-*Rafael Villero Castillo*
-*Juan Ramos Olmos*
-*Jose Salas Pajaro*
+-*Fredy Jarava Chavez T00064995*
+-*Rafael Villero Castillo*
+-*Juan Ramos Olmos*
+-*Jose Salas Pajaro*
 
 
 # Introducción y Metas {#section-introduction-and-goals}
