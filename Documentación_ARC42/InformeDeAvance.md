@@ -17,5 +17,11 @@
 ### Integrante 2
 
 
+---
 
+## Evidencia de Creación del Repositorio, Proyecto y Tareas en GitHub
+
+### Repositorio
+- *Nombre del repositorio*: Interfaz_Admintrativa_ALPY_Profesores
+- *URL*: https://github.com/JFredy10/Interfaz_Admintrativa_ALPY_Profesores.git
 
