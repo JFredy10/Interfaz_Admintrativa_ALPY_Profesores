@@ -76,3 +76,6 @@
 
 *GitHub repositorio*
 ![Repositorio](image-2.png)
+
+![Uploading Board.jpg…]()
+
