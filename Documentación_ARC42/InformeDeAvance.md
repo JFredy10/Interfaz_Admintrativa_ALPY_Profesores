@@ -77,6 +77,7 @@
 *GitHub repositorio*
 ![Repositorio](image-2.png)
 
-![Board](https://github.com/user-attachments/assets/e10786b6-8a81-4fc7-9358-908de1628441)
+
+![Board](https://github.com/user-attachments/assets/9129ccfb-403d-44c6-9d01-0adefdca01cd)
 
 
