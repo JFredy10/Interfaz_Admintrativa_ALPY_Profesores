@@ -14,13 +14,6 @@ COPY custom.ini /usr/local/etc/php/conf.d/
 # Establecer el directorio de trabajo
 WORKDIR /var/www/html
 
-
-# Descargar Moodle 4.5.2 directamente desde el sitio oficial
-RUN apt-get update && apt-get install -y wget \
-    && wget -O /tmp/moodle.tgz https://download.moodle.org/download.php/direct/stable405/moodle-4.5.2.tgz \
-    && tar -xzf /tmp/moodle.tgz -C /var/www/html/ \
-    && rm /tmp/moodle.tgz
-
     
 # Exponer el puerto 80
 EXPOSE 80
