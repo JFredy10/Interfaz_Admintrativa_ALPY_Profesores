@@ -236,17 +236,18 @@ Características de Calidad/Rendimiento
 - *Escalabilidad:* Pensada para crecer en número de usuarios.
 ## *\<Concepto 1>* {#__emphasis_concepto_1_emphasis}
 
-*\<explicación>*
+- *Seguridad:* Manejo seguro de la información de los estudiantes.
+*\<La informacion almacenada (datos personales) sobre los estudiantes estaran protegidas y sera vista solamente por el docente>*
 
 ## *\<Concepto 2>* {#__emphasis_concepto_2_emphasis}
-
-*\<explicación>*
+- *Interfaz amigable:* Diseñada con principios UX/UI.
+*\<Interfaz interactiva e amigable, por lo cual permite que sea facil de usar para el usuario y facil de editar para el ingeniero>*
 
 ...
 
 ## *\<Concepto n>* {#__emphasis_concepto_n_emphasis}
-
-*\<explicación>*
+- *Escalabilidad:* Pensada para crecer en número de usuarios.
+*\<la plataforma fue diseñada para funcionar bien incluso si la cantidad de usuarios crece mucho. Por ejemplo, si hoy lo usan 100 personas y mañana 10.000, el sistema no debería fallar ni volverse lento>*
 
 # Decisiones de Diseño {#section-design-decisions}
 - Uso de gráficos interactivos para la visualización de datos.
