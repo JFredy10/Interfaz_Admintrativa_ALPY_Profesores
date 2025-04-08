@@ -243,9 +243,7 @@ Características de Calidad/Rendimiento
 - *Interfaz amigable:* Diseñada con principios UX/UI.
 *\<Interfaz interactiva e amigable, por lo cual permite que sea facil de usar para el usuario y facil de editar para el ingeniero>*
 
-...
-
-## *\<Concepto n>* {#__emphasis_concepto_n_emphasis}
+## *\<Concepto 3>* {#__emphasis_concepto_3_emphasis}
 - *Escalabilidad:* Pensada para crecer en número de usuarios.
 *\<la plataforma fue diseñada para funcionar bien incluso si la cantidad de usuarios crece mucho. Por ejemplo, si hoy lo usan 100 personas y mañana 10.000, el sistema no debería fallar ni volverse lento>*
 
