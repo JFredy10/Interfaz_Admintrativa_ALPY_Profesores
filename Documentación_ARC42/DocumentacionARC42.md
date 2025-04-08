@@ -98,6 +98,10 @@ El sistema permitirá a los profesores visualizar los datos de los estudiantes e
 
 
 El sistema se desplegará en los servidores de Moodle/Savio, garantizando accesibilidad y seguridad.
+![image](https://github.com/user-attachments/assets/348e7f47-7286-4584-a315-7b8024c5ea0f)
+![image](https://github.com/user-attachments/assets/9a48478d-9207-4586-8cdf-c3e5646724de)
+![image](https://github.com/user-attachments/assets/a39e67c2-3a01-4e66-a769-dd514d36f248)
+
 
 ## Sistema General de Caja Blanca {#_sistema_general_de_caja_blanca}
 
