@@ -22,7 +22,7 @@ Hruschka y Dr. Gernot Starke.
 
 
 # Introducción y Metas 
-El objetivo de este documento es definir la arquitectura del bloque Moodle para la visualización de los test de personalidad de los estudiantes. Este interfaz facilitará a los profesores la interpretación de los datos del test de personalidad de los estudiantes en la plataforma Savio.
+El objetivo de este documento es definir la arquitectura del bloque Moodle para la visualización de los test de personalidad de los estudiantes. Esta interfaz facilitará a los profesores la interpretación de los datos del test de personalidad de los estudiantes en la plataforma Savio.
  
 ## Vista de Requerimientos 
 
@@ -30,7 +30,7 @@ El objetivo de este documento es definir la arquitectura del bloque Moodle para 
 **Requerimientos Funcionales**
 
 
-1. Presentar gráficos estadísticos de los estilos de aprendizaje (visual, sensitivo, secuencial, global).
+1. Presentar gráficos estadísticos de los resultados del test de personalidad de los estudiantes del curso.
 2. Mostrar comparativas de los resultados entre estudiantes.
 3. Opción de generar reportes en formatos CSV y PDF.
 4. Asegurar que los datos de los test de personalidad sean accesibles únicamente por los profesores del curso.
